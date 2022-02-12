@@ -1,0 +1,257 @@
+
+.aboutme{
+  text-decoration: underline;
+}
+
+
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.mpiano{
+  height: 15vw;
+}
+
+.title{
+  font-size: 1vw;
+}
+
+h1 {
+  color: white;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+  color: white;
+}
+
+
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  padding: 7vw;
+  background-color: #EE6F57;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.bottom-container {
+  height: 220px;
+  background-color: #152D35;
+  padding: 1px 0 ;
+}
+
+.skills{
+  padding: 30px;
+}
+
+.skill-row {
+  width: 100%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.mcoder {
+  position: absolute;
+  right: 100px;
+  top: 80px;
+}
+
+.mstudent {
+  position: absolute;
+  left: 70px;
+  top: 80px;
+}
+
+.code-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+  
+}
+
+.piano {
+  width: 14%;
+  float: right;
+  margin-left: 30px;
+}
+
+.student{
+    width: 14%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.btn {
+  background: #152D35;
+  background-image: -webkit-linear-gradient(top, #152D35, #5373e6);
+  background-image: -moz-linear-gradient(top, #152D35, #5373e6);
+  background-image: -ms-linear-gradient(top, #152D35, #5373e6);
+  background-image: -o-linear-gradient(top, #152D35, #5373e6);
+  background-image: linear-gradient(to bottom, #152D35, #5373e6);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  size: 5vw;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.student-row{
+  width: 100%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+}
+
+.dotted{
+  color: black;
+  background-color: #EE6F57;
+  border-style: dotted none none;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  width: 6%;
+  border-width: 12px;
+  
+}
+
+.dotted1{
+  color: black;
+  background-color: #EE6F57;
+  border-style: dotted none none;
+  margin-top: 20px;
+  margin-bottom: 120px;
+  width: 6%;
+  border-width: 12px;
+  
+}
+
+.mypic{
+  border-radius: 100%;
+  height: 400px;
+}
+
+.footer-link{
+  color: black;
+  margin:auto;
+}
+
+.pics{
+  height: 100px;
+}
+.pics1{
+  height: 140px;
+  position: relative;
+  top: 18px;
+}
+.pics2{
+  height: 100px;
+}
+
+.pics:hover{
+  height: 105px;
+}
+.pics1:hover{
+
+  height: 145px;
+  position: relative;
+  top: 18px;
+}
+.pics2:hover{
+  height: 105px;
+}
+.doyou{
+  font-size: 30px;
+  color: black;
+}
+
+.iframes{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    /* width: 100%;  /* RESPONSIVE WIDTH */
+    /* max-width: 400px;
+    height: 300px; */ 
+    overflow: hidden;  
+    border: #999999 1px solid;
+    padding: 0px;
+    margin-left: 5%;
+}
+
+.contact-me{
+  margin-bottom: -20px;
+}
